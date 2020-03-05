@@ -1,0 +1,275 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  bottom: 8rem;
+  min-height: 100%;
+  margin: 0 auto -50px;
+  padding: 1.2rem;
+}
+
+.landing {
+	flex: 6;
+  padding: 2.4rem 1.2rem;
+  position: relative;
+}
+
+.landing__top--text--bold {
+	font-size: var(--mlSize);
+	font-weight: bold;
+	color: var(--grey);
+	text-align: start;
+}
+
+.landing__top--info {
+	font-size: var(--mlSize);
+	text-align: start;
+}
+
+/*Car Item*/
+
+.car__item {
+  border: 0.1rem solid var(--lightGrey);
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.car__item--info {
+  margin-bottom: var(--xsSize);
+}
+
+.car__item--img {
+	height: 7rem;
+}
+
+.car__item__text {
+	margin: 0 0 var(--xsSize) 0;
+	padding: 0;
+}
+
+.car__item__details {
+  display: flex;
+  flex-direction: column;
+  margin: var(--mSize);
+  width: 100%;
+}
+
+.car__item__details--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: var(--mSize);
+  text-align: start;
+  max-height: 10rem;
+}
+
+.margin__set {
+	margin: 0 0 var(--xsSize);
+	padding: 0;
+}
+
+.car__item__text--small {
+  font-size: var(--msSize);
+}
+
+.pagelink__text--orange {
+  text-decoration: none;
+  color: var(--orange);
+}
+
+.pagelink__text--orange:link {
+  color: var(--orange);
+}
+
+/* visited link */
+.pagelink__text--orange:visited {
+  color: var(--darkOrange);
+}
+
+/* mouse over link */
+.pagelink__text--orange:hover {
+  color: var(--darkOrange);
+}
+
+/* selected link */
+.pagelink__text--orange:active {
+  color: var(--darkOrange);
+}
+
+.pagelink__text--black {
+  text-decoration: none;
+  color: var(--darkGray);
+}
+
+
+
+/*Filter*/
+
+.filter {
+  flex: 2;
+  padding: 2.4rem;
+}
+
+.filter-box {
+  padding: 2.4rem;
+  border: 0.1rem solid var(--lightGrey);
+  text-align: start;
+  height: 23rem;
+}
+
+.filter-box p {
+  margin: 0.8rem 0;
+}
+
+/*dropdown*/
+
+.dropdown-white,
+.dropdown-white:hover,
+.dropdown-white:focus,
+.show>.btn-primary.dropdown-toggle {
+  background: var(--white);
+  color: var(--black);
+  border-color: var(--lightGrey);
+  width: 100%;
+  height: 3rem;
+  text-align: start;
+  position: relative;
+  font-size: var(--msSize);
+}
+
+.dropdown-item {
+  font-size: var(--msSize);
+}
+
+.dropdown-item:hover {
+  background: var(--orange);
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.dropdown-toggle::after {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.filter-button,
+.filter-button:focus,
+.filter-button:hover
+ {
+  width: 12.8rem;
+  height: 3.2rem;
+  background-color: var(--orange);
+  float: right;
+  border-color: var(--orange); 
+  margin-top: 1.2rem;
+  font-size: var(--msSize)
+}
+
+.filter-button:visited,
+.filter-button:active ,
+.primary:not(:disabled):not(.disabled):active
+{
+  background-color: var(--darkOrange);
+}
+
+
+ /*Car Details Page*/
+
+ .car__details--content {
+  height: 100%;
+ }
+
+ .car__details {
+  height: 100%;
+ }
+
+.car-view {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem;
+  justify-content: center;
+}
+
+.details__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 3rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  color: var(--darkGray);
+  width: 60%;
+}
+
+.details__text--margin {
+  padding-left: 15rem;
+  padding-right: 5rem;
+}
+
+.details__text--xlarge {
+  display: flex;
+  font-size: var(--xlSize);
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.details__text--large {
+  display: flex;
+  margin-top: 2.4rem;
+  font-size: var(--mlSize);
+}
+
+.details__text--small {
+  margin-top: 2.4rem;
+  display: flex;
+  text-align: start;
+  font-size: var(--mSize)
+}
+
+.save-car {
+  border: 0.1rem solid var(--lightGrey);
+  margin-left: 10rem;
+  margin-right: 5rem;
+  margin-bottom: 6rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--grey);
+  width: 25%;
+}
+
+.save-car__text--small {
+  display: flex;
+  font-size: var(--mSize);
+  text-align: start;
+}
+
+.save-car__btn--wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.save-car__text--red {
+  color: red;
+}
+
+.car__details--img {
+  max-height: 80rem;
+  max-width: 100%;
+  padding: 2.4rem;
+}
+
+.dropdown-menu.show {
+  width: 100%;
+}

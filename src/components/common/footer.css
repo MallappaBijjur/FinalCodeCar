@@ -1,0 +1,16 @@
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: var(--white);
+  color: var(--grey);
+  text-align: center;
+  border-top: 0.1rem solid var(--lightGrey);
+  height: 8rem;
+}
+
+.footer__text {
+  font-size: var(--msSize);
+}

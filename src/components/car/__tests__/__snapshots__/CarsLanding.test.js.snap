@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarsLanding matches snapshot 1`] = `
+<div
+  className="landing"
+>
+  <div
+    className="landing__top"
+  >
+    <p
+      className="landing__top--text--bold"
+      id="available cars"
+    >
+      Available Cars
+    </p>
+    <p
+      className="landing__top--info"
+    >
+      Showing 2 of 2 results
+    </p>
+  </div>
+  <div
+    data-testid="cars-items"
+  >
+    <div
+      className="car__item"
+      data-testid="car-30562"
+    >
+      <div
+        className="car__item__img--container"
+      >
+        <img
+          alt="Car"
+          className="car__item--img"
+          src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        />
+      </div>
+      <div
+        className="car__item__details--container"
+      >
+        <div
+          className="car__item__details"
+        >
+          <p
+            className="car__item--info landing__top--text--bold margin__set"
+          >
+            Ducato
+          </p>
+          <div
+            className="car__item__text car__item__text--small car__item__width--max "
+          >
+            <p
+              className="car__item__text"
+            >
+              Stock #
+              30562 -
+              100013 KM -
+              Petrol -
+              yellow
+            </p>
+          </div>
+          <a
+            className="car__item__text car__item__text--link car__item__text--small pagelink__text--orange"
+            href="/car/30562"
+          >
+            View details
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="car__item"
+      data-testid="car-35592"
+    >
+      <div
+        className="car__item__img--container"
+      >
+        <img
+          alt="Car"
+          className="car__item--img"
+          src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        />
+      </div>
+      <div
+        className="car__item__details--container"
+      >
+        <div
+          className="car__item__details"
+        >
+          <p
+            className="car__item--info landing__top--text--bold margin__set"
+          >
+            New Yorker
+          </p>
+          <div
+            className="car__item__text car__item__text--small car__item__width--max "
+          >
+            <p
+              className="car__item__text"
+            >
+              Stock #
+              35592 -
+              100115 KM -
+              Petrol -
+              white
+            </p>
+          </div>
+          <a
+            className="car__item__text car__item__text--link car__item__text--small pagelink__text--orange"
+            href="/car/35592"
+          >
+            View details
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="pagination"
+  >
+    <a
+      className="link__item--text link__item--text--small pagelink__text--orange"
+      href="#available cars"
+      onClick={[Function]}
+    >
+      First
+    </a>
+    <a
+      className="link__item--text link__item--text--small pagelink__text--orange"
+      href="#available cars"
+      onClick={[Function]}
+    >
+      Previous
+    </a>
+    <a
+      className="link__item--text link__item--text--small link__text--black"
+      href="#available cars"
+    >
+      Page undefined of undefined
+    </a>
+    <a
+      className="link__item--text link__item--text--small pagelink__text--orange"
+      href="#available cars"
+      onClick={[Function]}
+    >
+      Next
+    </a>
+    <a
+      className="link__item--text link__item--text--small pagelink__text--orange"
+      href="#available cars"
+      onClick={[Function]}
+    >
+      Last
+    </a>
+  </div>
+</div>
+`;

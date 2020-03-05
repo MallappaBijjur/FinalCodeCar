@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination matches snapshot 1`] = `
+<div
+  className="pagination"
+>
+  <a
+    className="link__item--text link__item--text--small pagelink__text--orange"
+    href="#available cars"
+    onClick={[Function]}
+  >
+    First
+  </a>
+  <a
+    className="link__item--text link__item--text--small pagelink__text--orange"
+    href="#available cars"
+    onClick={[Function]}
+  >
+    Previous
+  </a>
+  <a
+    className="link__item--text link__item--text--small link__text--black"
+    href="#available cars"
+  >
+    Page undefined of undefined
+  </a>
+  <a
+    className="link__item--text link__item--text--small pagelink__text--orange"
+    href="#available cars"
+    onClick={[Function]}
+  >
+    Next
+  </a>
+  <a
+    className="link__item--text link__item--text--small pagelink__text--orange"
+    href="#available cars"
+    onClick={[Function]}
+  >
+    Last
+  </a>
+</div>
+`;

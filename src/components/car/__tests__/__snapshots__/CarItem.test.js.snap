@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarItem matches snapshot 1`] = `
+<div
+  className="car__item"
+  data-testid="car-30562"
+>
+  <div
+    className="car__item__img--container"
+  >
+    <img
+      alt="Car"
+      className="car__item--img"
+      src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+    />
+  </div>
+  <div
+    className="car__item__details--container"
+  >
+    <div
+      className="car__item__details"
+    >
+      <p
+        className="car__item--info landing__top--text--bold margin__set"
+      >
+        Ducato
+      </p>
+      <div
+        className="car__item__text car__item__text--small car__item__width--max "
+      >
+        <p
+          className="car__item__text"
+        >
+          Stock #
+              30562 -
+              100013 KM -
+              Petrol -
+              yellow
+        </p>
+      </div>
+      <a
+        className="car__item__text car__item__text--link car__item__text--small pagelink__text--orange"
+        href="/car/30562"
+      >
+        View details
+      </a>
+    </div>
+  </div>
+</div>
+`;

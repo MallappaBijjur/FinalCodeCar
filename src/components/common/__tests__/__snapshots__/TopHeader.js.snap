@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopHeader matches snapshot 1`] = `
+<header
+  className="header"
+>
+  <div>
+    <img
+      alt="Auto1LOgo"
+      className="header__logo"
+      src="auto1logo.jpg"
+    />
+  </div>
+  <div
+    className="header__nav"
+    data-testid="header"
+  >
+    <a
+      className="header__navlink"
+      href="#purchase"
+    >
+      Purchase
+    </a>
+    <a
+      className="header__navlink"
+      href="#myOrders"
+    >
+      My Orders
+    </a>
+    <a
+      className="header__navlink"
+      href="#Sell"
+    >
+      Sell
+    </a>
+  </div>
+</header>
+`;

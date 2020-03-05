@@ -1,0 +1,31 @@
+.header {
+    align-items: center;
+    background: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--grey);
+    border-bottom: 0.1rem solid var(--lightGrey);
+    padding: var(--mSize) 0;
+    height: 8rem;
+}
+
+.header__logo {
+	height: 5rem;
+}
+
+.header__nav {
+	display: flex;
+  margin-right: 1rem;
+}
+
+.header__navlink {
+  margin: 0;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--grey);
+}

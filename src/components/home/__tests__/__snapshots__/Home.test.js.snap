@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<main
+  className="wrap-container"
+  data-testid="home-main"
+>
+  <header
+    className="header"
+  >
+    <div>
+      <img
+        alt="Auto1LOgo"
+        className="header__logo"
+        src="auto1logo.jpg"
+      />
+    </div>
+    <div
+      className="header__nav"
+      data-testid="header"
+    >
+      <a
+        className="header__navlink"
+        href="#purchase"
+      >
+        Purchase
+      </a>
+      <a
+        className="header__navlink"
+        href="#myOrders"
+      >
+        My Orders
+      </a>
+      <a
+        className="header__navlink"
+        href="#Sell"
+      >
+        Sell
+      </a>
+    </div>
+  </header>
+  <section
+    className="home-container"
+  >
+    <section
+      className="filter"
+      data-testid="filter-comp"
+    >
+      <section
+        className="filter-box"
+      >
+        <p>
+          Color
+        </p>
+        <div
+          className="dropdown"
+          onKeyDown={[Function]}
+        >
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="dropdown-white dropdown-toggle btn btn-primary"
+            disabled={false}
+            id="dropdown-basic"
+            onClick={[Function]}
+            type="button"
+          >
+            All car colors
+          </button>
+        </div>
+        <p>
+          Manufacturer
+        </p>
+        <div
+          className="dropdown"
+          onKeyDown={[Function]}
+        >
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="dropdown-white dropdown-toggle btn btn-primary"
+            disabled={false}
+            id="dropdown-basic"
+            onClick={[Function]}
+            type="button"
+          >
+            All manufacturers
+          </button>
+        </div>
+        <button
+          className="filter-button btn btn-primary"
+          data-testid="filter"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Filter
+        </button>
+      </section>
+    </section>
+    <div
+      className="landing"
+    >
+      <div
+        className="landing__top"
+      >
+        <p
+          className="landing__top--text--bold"
+          id="available cars"
+        >
+          Available Cars
+        </p>
+        <p
+          className="landing__top--info"
+        >
+          Showing 0 of 0 results
+        </p>
+      </div>
+      <div
+        data-testid="cars-items"
+      />
+      <div
+        className="pagination"
+      >
+        <a
+          className="link__item--text link__item--text--small pagelink__text--orange"
+          href="#available cars"
+          onClick={[Function]}
+        >
+          First
+        </a>
+        <a
+          className="link__item--text link__item--text--small pagelink__text--orange"
+          href="#available cars"
+          onClick={[Function]}
+        >
+          Previous
+        </a>
+        <a
+          className="link__item--text link__item--text--small link__text--black"
+          href="#available cars"
+        >
+          Page 1 of 0
+        </a>
+        <a
+          className="link__item--text link__item--text--small pagelink__text--orange"
+          href="#available cars"
+          onClick={[Function]}
+        >
+          Next
+        </a>
+        <a
+          className="link__item--text link__item--text--small pagelink__text--orange"
+          href="#available cars"
+          onClick={[Function]}
+        >
+          Last
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer
+    className="footer"
+  >
+    <p
+      className="footer__text"
+    >
+      © AUTO1 Group 2018
+    </p>
+  </footer>
+</main>
+`;

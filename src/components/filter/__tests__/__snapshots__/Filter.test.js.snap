@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter matches snapshot 1`] = `
+<section
+  className="filter"
+  data-testid="filter-comp"
+>
+  <section
+    className="filter-box"
+  >
+    <p>
+      Color
+    </p>
+    <div
+      className="dropdown"
+      onKeyDown={[Function]}
+    >
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="dropdown-white dropdown-toggle btn btn-primary"
+        disabled={false}
+        id="dropdown-basic"
+        onClick={[Function]}
+        type="button"
+      >
+        All car colors
+      </button>
+    </div>
+    <p>
+      Manufacturer
+    </p>
+    <div
+      className="dropdown"
+      onKeyDown={[Function]}
+    >
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="dropdown-white dropdown-toggle btn btn-primary"
+        disabled={false}
+        id="dropdown-basic"
+        onClick={[Function]}
+        type="button"
+      >
+        All manufacturers
+      </button>
+    </div>
+    <button
+      className="filter-button btn btn-primary"
+      data-testid="filter"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Filter
+    </button>
+  </section>
+</section>
+`;
